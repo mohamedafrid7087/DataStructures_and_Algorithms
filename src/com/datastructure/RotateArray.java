@@ -36,7 +36,7 @@ class RotateArray {
     public static void main(String[] args)
     {
         RotateArray rotate = new RotateArray();
-        int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
+        int arr[] = { 1, 2, 3, 4, 5, 6, 7 }; 
         System.out.println("input ="+ Arrays.toString(arr));
         rotate.leftRotate(arr, 2, 7);
         rotate.printArray(arr, 7);
