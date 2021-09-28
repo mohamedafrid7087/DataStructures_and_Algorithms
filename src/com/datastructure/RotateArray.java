@@ -11,13 +11,13 @@ import java.util.Arrays;
 
 class RotateArray {
     /*Function to left rotate arr[] of size n by d*/
-    void leftRotate(int arr[], int d, int n)
+  public void leftRotate(int arr[], int d, int n)
     {
         for (int i = 0; i < d; i++)
             leftRotatebyOne(arr, n);
     }
 
-    void leftRotatebyOne(int arr[], int n) {
+   public void leftRotatebyOne(int arr[], int n)  {
         int i, temp;
         temp = arr[0];
         for (i = 0; i < n - 1; i++) {
